@@ -10,6 +10,8 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  background-color: #1f1f1f;
+  color: white;
 }
 
 /* adjust typography defaults */
@@ -27,8 +29,26 @@ video {
 }
 
 p {
-  color: red;
+  color: rgb(180, 220, 255);
 }
 
 
 p {}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
